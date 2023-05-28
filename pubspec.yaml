@@ -1,0 +1,58 @@
+name: match_remainder
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.2 <3.0.0'
+
+#
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+
+  cupertino_icons: ^1.0.2
+  lottie: ^2.3.0
+  intl: ^0.18.1
+  table_calendar: ^3.0.9
+  provider: ^6.0.5
+  fluttertoast: ^8.2.2
+  percent_indicator: ^4.2.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+
+  uses-material-design: true
+
+  assets:
+       - assets/animation/63704-soccer-ball.json
+       - assets/images/
+      
+
+
+
+  fonts:
+      - family: DynaPuff
+        fonts:
+          - asset: assets/fonts/DynaPuff/DynaPuff-Regular.ttf
+      - family: PlayfairDisplay
+        fonts:
+          - asset: assets/fonts/static/PlayfairDisplay-Regular.ttf
+      - family: Lobster
+        fonts:
+          - asset: assets/fonts/Lobster/Lobster-Regular.ttf 
+      - family: Oswald
+        fonts:
+          - asset: assets/fonts/Oswald/Oswald-Regular.ttf 
